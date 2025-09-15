@@ -12,10 +12,10 @@ Phenotyping algorithms for Hypertensive Disorders of Pregnancy (HDP) are the fol
 
 [1]: https://www.nature.com/articles/s41598-024-55914-9 "Development of phenotyping algorithms for hypertensive disorders of pregnancy (HDP) and their application in more than 22,000 pregnant women | Scientific Reports"
 
-# Requirements
+## Requirements
 Python Python 2.7.5 and Perl 5.16.3
 
-# Input file format
+## Input file format
 - input_file.csv
 	- Input file must wide format.
 	- The input file is consist of structured clinical data including
@@ -41,5 +41,5 @@ Python Python 2.7.5 and Perl 5.16.3
 		- 000008:value of GPT
 		- 000009:value of PLT
 	
-# License
+## License
 HDP phenotyoing algorithms are under [GPLv2 license](https://choosealicense.com/licenses/gpl-2.0/).
