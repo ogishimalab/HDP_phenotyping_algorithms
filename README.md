@@ -1,9 +1,21 @@
 # HDP_phenotyping_algorithms
+
+This repository implements phenotyping algorithms for Hypertensive Disorders of Pregnancy (HDP), based on the methods described in Mizuno et al. (2024), “Development of phenotyping algorithms for hypertensive disorders of pregnancy (HDP) and their application in more than 22,000 pregnant women”.
+
+The purpose of this repository is to provide a reproducible and programmable framework for identifying cases of hypertensive disorders of pregnancy (HDP) and their subtypes with high precision from large-scale cohort datasets. By combining structured data such as blood pressure readings and proteinuria measurements with unstructured clinical notes, the algorithms enable researchers to construct accurate cohorts suitable for maternal health studies. This approach supports a wide range of applications, including epidemiological analyses, precision medicine, and genetic or phenotypic association studies, by ensuring that HDP cases are consistently and systematically defined across diverse data sources.
+
 Phenotyping algorithms for Hypertensive Disorders of Pregnancy (HDP)
 * Algorithm 1 
 The implecation of a HDP phenotyping algorithm according to American college of obstetricians and gynecologists (ACOG) guidline. 
 * Algorithm 2
 The implecation of a HDP phenotyping algorithm according to Japan society of obestrics and gynecology (JSOG) guidline. 
+
+| Algorithm       | Based on which guideline                                                            | Key additional criteria used                                                                                                                                                                          |
+| --------------- | ----------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Algorithm 1** | American College of Obstetricians and Gynecologists (ACOG) guidelines ([Nature][1]) | Uses hypertensive disease history, blood pressure (BP) readings, proteinuria (PU), timing of onset, and preeclampsia-related clinical conditions. ([Nature][1])                                       |
+| **Algorithm 2** | Japan Society of Obstetrics and Gynecology (JSOG) guidelines ([Nature][1])          | In addition to the criteria in Algorithm 1, includes maternal organ dysfunction and “light-for-date” (i.e. fetal growth restriction), both drawn also from unstructured clinical notes. ([Nature][1]) |
+
+[1]: https://www.nature.com/articles/s41598-024-55914-9 "Development of phenotyping algorithms for hypertensive disorders of pregnancy (HDP) and their application in more than 22,000 pregnant women | Scientific Reports"
 
 # Requirements
 Python Python 2.7.5 and Perl 5.16.3
