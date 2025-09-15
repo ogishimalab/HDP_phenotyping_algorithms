@@ -1,4 +1,4 @@
-# HDP_phenotyping_algorithms
+# HDP phenotyping algorithms
 
 This repository implements phenotyping algorithms for Hypertensive Disorders of Pregnancy (HDP), based on the methods described in Mizuno et al. (2024), “Development of phenotyping algorithms for hypertensive disorders of pregnancy (HDP) and their application in more than 22,000 pregnant women”.
 
